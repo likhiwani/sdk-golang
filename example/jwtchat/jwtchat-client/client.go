@@ -4,14 +4,15 @@ import (
 	"bufio"
 	"flag"
 	"fmt"
+	"os"
+	"os/signal"
+	edge_apis "ztna-core/sdk-golang/edge-apis"
+	"ztna-core/sdk-golang/ziti"
+
 	"github.com/Jeffail/gabs"
-	edge_apis "github.com/openziti/sdk-golang/edge-apis"
-	"github.com/openziti/sdk-golang/ziti"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 	"gopkg.in/resty.v1"
-	"os"
-	"os/signal"
 )
 
 func main() {
@@ -55,7 +56,7 @@ func main() {
 	credentials.CaPool = caPool
 
 	cfg := &ziti.Config{
-		ZtAPI: *openzitiURL + "/edge/client/v1",
+		ZtAPI:       *openzitiURL + "/edge/client/v1",
 		Credentials: credentials,
 	}
 	ctx, err := ziti.NewContext(cfg)

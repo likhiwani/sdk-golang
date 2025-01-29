@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/openziti/sdk-golang/ziti"
 	"net"
 	"net/http"
 	"os"
 	"strconv"
 	"time"
+	"ztna-core/sdk-golang/ziti"
 )
 
 func main() {

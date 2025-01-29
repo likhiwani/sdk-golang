@@ -1,6 +1,6 @@
 package ziti
 
-import "github.com/openziti/edge-api/rest_model"
+import "ztna-core/edge-api/rest_model"
 
 type Precedence byte
 

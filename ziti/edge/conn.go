@@ -18,7 +18,7 @@ package edge
 
 import (
 	"fmt"
-	"github.com/openziti/edge-api/rest_model"
+	"ztna-core/edge-api/rest_model"
 	"github.com/openziti/secretstream/kx"
 	"io"
 	"net"

@@ -3,14 +3,15 @@ package network
 import (
 	"crypto/x509"
 	"encoding/binary"
-	"github.com/openziti/channel/v3"
-	"github.com/openziti/foundation/v2/sequencer"
-	"github.com/openziti/sdk-golang/ziti/edge"
-	"github.com/stretchr/testify/require"
 	"io"
 	"sync/atomic"
 	"testing"
 	"time"
+	"ztna-core/sdk-golang/ziti/edge"
+
+	"github.com/openziti/channel/v3"
+	"github.com/openziti/foundation/v2/sequencer"
+	"github.com/stretchr/testify/require"
 )
 
 func BenchmarkConnWriteBaseLine(b *testing.B) {

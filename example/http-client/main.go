@@ -2,11 +2,11 @@ package main
 
 import (
 	"context"
-	"github.com/openziti/sdk-golang/ziti"
 	"io"
 	"net"
 	"net/http"
 	"os"
+	"ztna-core/sdk-golang/ziti"
 )
 
 func newZitiClient() *http.Client {

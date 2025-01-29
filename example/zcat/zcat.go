@@ -18,17 +18,18 @@ package main
 
 import (
 	"fmt"
-	"github.com/michaelquigley/pfxlog"
-	"github.com/openziti/foundation/v2/info"
-	"github.com/openziti/sdk-golang/ziti"
-	"github.com/openziti/transport/v2"
-	"github.com/sirupsen/logrus"
-	"github.com/spf13/cobra"
 	"io"
 	"net/http"
 	"net/url"
 	"os"
 	"time"
+	"ztna-core/sdk-golang/ziti"
+
+	"github.com/michaelquigley/pfxlog"
+	"github.com/openziti/foundation/v2/info"
+	"github.com/openziti/transport/v2"
+	"github.com/sirupsen/logrus"
+	"github.com/spf13/cobra"
 )
 
 func init() {

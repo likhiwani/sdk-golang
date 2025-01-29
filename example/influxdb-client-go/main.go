@@ -4,12 +4,13 @@ import (
 	"context"
 	"flag"
 	"fmt"
-	influxdb2 "github.com/influxdata/influxdb-client-go/v2"
-	"github.com/openziti/sdk-golang/ziti"
-	"github.com/sirupsen/logrus"
 	"net"
 	"net/http"
 	"time"
+	"ztna-core/sdk-golang/ziti"
+
+	influxdb2 "github.com/influxdata/influxdb-client-go/v2"
+	"github.com/sirupsen/logrus"
 )
 
 var svcName = "httpsdk"

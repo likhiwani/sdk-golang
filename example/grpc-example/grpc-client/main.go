@@ -3,10 +3,10 @@ package main
 import (
 	"context"
 	"flag"
-	"github.com/openziti/sdk-golang/ziti"
 	"log"
 	"net"
 	"time"
+	"ztna-core/sdk-golang/ziti"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"

@@ -17,7 +17,7 @@
 package sdkinfo
 
 import (
-	"github.com/openziti/edge-api/rest_model"
+	"ztna-core/edge-api/rest_model"
 	"github.com/sirupsen/logrus"
 	"runtime"
 )

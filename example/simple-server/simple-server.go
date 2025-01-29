@@ -18,13 +18,14 @@ package main
 
 import (
 	"fmt"
-	"github.com/michaelquigley/pfxlog"
-	"github.com/openziti/sdk-golang/ziti"
-	"github.com/sirupsen/logrus"
 	"net"
 	"net/http"
 	"os"
 	"time"
+	"ztna-core/sdk-golang/ziti"
+
+	"github.com/michaelquigley/pfxlog"
+	"github.com/sirupsen/logrus"
 )
 
 type Greeter string

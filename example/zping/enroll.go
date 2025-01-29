@@ -19,14 +19,15 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/michaelquigley/pfxlog"
-	"github.com/openziti/sdk-golang/ziti"
-	"github.com/openziti/sdk-golang/ziti/enroll"
-	"github.com/pkg/errors"
-	"github.com/sirupsen/logrus"
 	"io/ioutil"
 	"os"
 	"strings"
+	"ztna-core/sdk-golang/ziti"
+	"ztna-core/sdk-golang/ziti/enroll"
+
+	"github.com/michaelquigley/pfxlog"
+	"github.com/pkg/errors"
+	"github.com/sirupsen/logrus"
 
 	"github.com/spf13/cobra"
 )

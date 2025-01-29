@@ -2,7 +2,7 @@ package edge_apis
 
 import (
 	"crypto/x509"
-	"github.com/openziti/edge-api/rest_util"
+	"ztna-core/edge-api/rest_util"
 	"net/http"
 	"net/http/cookiejar"
 	"net/url"

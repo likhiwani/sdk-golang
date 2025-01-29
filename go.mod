@@ -1,4 +1,4 @@
-module github.com/openziti/sdk-golang
+module ztna-core/sdk-golang
 
 go 1.21
 
@@ -19,7 +19,6 @@ require (
 	github.com/mitchellh/go-ps v1.0.0
 	github.com/mitchellh/mapstructure v1.5.0
 	github.com/openziti/channel/v3 v3.0.27
-	github.com/openziti/edge-api v0.26.38
 	github.com/openziti/foundation/v2 v2.0.56
 	github.com/openziti/identity v1.0.94
 	github.com/openziti/metrics v1.2.65
@@ -37,6 +36,7 @@ require (
 	golang.org/x/oauth2 v0.25.0
 	golang.org/x/sys v0.29.0
 	google.golang.org/protobuf v1.36.3
+	ztna-core/edge-api v0.26.38
 )
 
 require (
@@ -90,3 +90,5 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	nhooyr.io/websocket v1.8.17 // indirect
 )
+
+replace ztna-core/edge-api => ../edge-api

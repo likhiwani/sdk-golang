@@ -19,14 +19,15 @@ package ziti
 import (
 	"crypto/x509"
 	"encoding/json"
-	"github.com/openziti/edge-api/rest_util"
-	"github.com/openziti/identity"
-	apis "github.com/openziti/sdk-golang/edge-apis"
-	"github.com/openziti/transport/v2"
-	"github.com/pkg/errors"
 	"net/http"
 	"net/url"
 	"os"
+	"ztna-core/edge-api/rest_util"
+	apis "ztna-core/sdk-golang/edge-apis"
+
+	"github.com/openziti/identity"
+	"github.com/openziti/transport/v2"
+	"github.com/pkg/errors"
 )
 
 type Config struct {

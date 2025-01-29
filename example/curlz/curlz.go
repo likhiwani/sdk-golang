@@ -19,12 +19,12 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/openziti/sdk-golang/ziti"
 	"io"
 	"net"
 	"net/http"
 	"os"
 	"strings"
+	"ztna-core/sdk-golang/ziti"
 )
 
 type ZitiDialContext struct {

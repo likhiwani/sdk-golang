@@ -1,4 +1,4 @@
-module github.com/openziti/sdk-golang/example/influx-client-go
+module ztna-core/sdk-golang/example/influx-client-go
 
 go 1.21
 
@@ -6,7 +6,7 @@ toolchain go1.23.1
 
 require (
 	github.com/influxdata/influxdb-client-go/v2 v2.12.3
-	github.com/openziti/sdk-golang v0.23.45
+	ztna-core/sdk-golang v0.23.45
 	github.com/sirupsen/logrus v1.9.3
 )
 
@@ -93,7 +93,7 @@ require (
 	github.com/oklog/ulid v1.3.1 // indirect
 	github.com/opentracing/opentracing-go v1.2.0 // indirect
 	github.com/openziti/channel/v3 v3.0.26 // indirect
-	github.com/openziti/edge-api v0.26.36 // indirect
+	ztna-core/edge-api v0.26.36 // indirect
 	github.com/openziti/foundation/v2 v2.0.56 // indirect
 	github.com/openziti/identity v1.0.94 // indirect
 	github.com/openziti/metrics v1.2.65 // indirect

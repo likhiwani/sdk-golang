@@ -17,9 +17,10 @@
 package ziti
 
 import (
+	"ztna-core/edge-api/rest_model"
+	edge_apis "ztna-core/sdk-golang/edge-apis"
+
 	"github.com/kataras/go-events"
-	"github.com/openziti/edge-api/rest_model"
-	edge_apis "github.com/openziti/sdk-golang/edge-apis"
 )
 
 const (

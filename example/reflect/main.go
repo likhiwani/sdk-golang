@@ -1,9 +1,10 @@
 package main
 
 import (
+	"ztna-core/sdk-golang/example/reflect/cmd"
+	"ztna-core/sdk-golang/ziti"
+
 	"github.com/michaelquigley/pfxlog"
-	"github.com/openziti/sdk-golang/example/reflect/cmd"
-	"github.com/openziti/sdk-golang/ziti"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )

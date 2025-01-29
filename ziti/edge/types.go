@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"github.com/michaelquigley/pfxlog"
 	"github.com/mitchellh/mapstructure"
-	"github.com/openziti/edge-api/rest_model"
+	"ztna-core/edge-api/rest_model"
 	"github.com/pkg/errors"
 	"golang.org/x/exp/slices"
 	"net"

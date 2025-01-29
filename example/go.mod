@@ -1,10 +1,10 @@
-module github.com/openziti/sdk-golang/example
+module ztna-core/sdk-golang/example
 
 go 1.21
 
 toolchain go1.22.1
 
-replace github.com/openziti/sdk-golang => ../
+replace ztna-core/sdk-golang => ../
 
 require (
 	github.com/Jeffail/gabs v1.4.0
@@ -13,7 +13,7 @@ require (
 	github.com/michaelquigley/pfxlog v0.6.10
 	github.com/openziti/foundation/v2 v2.0.56
 	github.com/openziti/runzmd v1.0.33
-	github.com/openziti/sdk-golang v0.0.0
+	ztna-core/sdk-golang v0.0.0
 	github.com/openziti/transport/v2 v2.0.160
 	github.com/pkg/errors v0.9.1
 	github.com/sirupsen/logrus v1.9.3
@@ -80,7 +80,7 @@ require (
 	github.com/oklog/ulid v1.3.1 // indirect
 	github.com/opentracing/opentracing-go v1.2.0 // indirect
 	github.com/openziti/channel/v3 v3.0.27 // indirect
-	github.com/openziti/edge-api v0.26.38 // indirect
+	ztna-core/edge-api v0.26.38 // indirect
 	github.com/openziti/identity v1.0.94 // indirect
 	github.com/openziti/metrics v1.2.65 // indirect
 	github.com/openziti/secretstream v0.1.28 // indirect

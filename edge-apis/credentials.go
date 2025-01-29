@@ -4,13 +4,14 @@ import (
 	"crypto"
 	"crypto/tls"
 	"crypto/x509"
+	"net/http"
+	"ztna-core/edge-api/rest_model"
+	"ztna-core/sdk-golang/ziti/edge/network"
+	"ztna-core/sdk-golang/ziti/sdkinfo"
+
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
-	"github.com/openziti/edge-api/rest_model"
 	"github.com/openziti/identity"
-	"github.com/openziti/sdk-golang/ziti/edge/network"
-	"github.com/openziti/sdk-golang/ziti/sdkinfo"
-	"net/http"
 )
 
 // Credentials represents the minimal information needed across all authentication mechanisms to authenticate an identity

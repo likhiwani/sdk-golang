@@ -3,10 +3,11 @@ package main
 import (
 	"bufio"
 	"fmt"
-	"github.com/michaelquigley/pfxlog"
-	"github.com/openziti/sdk-golang/ziti"
 	"io"
 	"os"
+	"ztna-core/sdk-golang/ziti"
+
+	"github.com/michaelquigley/pfxlog"
 )
 
 var log = pfxlog.Logger()

@@ -3,10 +3,10 @@ package cmd
 import (
 	"bufio"
 	"fmt"
-	"github.com/openziti/sdk-golang/ziti"
 	"net"
 	"os"
 	"strings"
+	"ztna-core/sdk-golang/ziti"
 )
 
 func Server(zitiCfg *ziti.Config, serviceName string) {

@@ -18,9 +18,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/openziti/sdk-golang/ziti"
 	"io"
 	"os"
+	"ztna-core/sdk-golang/ziti"
 )
 
 func main() {

@@ -18,10 +18,6 @@ package network
 
 import (
 	"fmt"
-	"github.com/michaelquigley/pfxlog"
-	"github.com/openziti/edge-api/rest_model"
-	"github.com/openziti/sdk-golang/ziti/edge"
-	"github.com/pkg/errors"
 	"math"
 	"net"
 	"reflect"
@@ -29,6 +25,11 @@ import (
 	"sync"
 	"sync/atomic"
 	"time"
+	"ztna-core/edge-api/rest_model"
+	"ztna-core/sdk-golang/ziti/edge"
+
+	"github.com/michaelquigley/pfxlog"
+	"github.com/pkg/errors"
 )
 
 type baseListener struct {

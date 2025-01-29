@@ -26,17 +26,18 @@
 package ziti
 
 import (
-	"github.com/kataras/go-events"
-	"github.com/michaelquigley/pfxlog"
-	"github.com/openziti/edge-api/rest_model"
-	edge_apis "github.com/openziti/sdk-golang/edge-apis"
-	"github.com/openziti/sdk-golang/ziti/edge"
-	"github.com/openziti/sdk-golang/ziti/edge/posture"
-	cmap "github.com/orcaman/concurrent-map/v2"
-	"github.com/pkg/errors"
 	"net/http"
 	"net/url"
 	"strconv"
+	"ztna-core/edge-api/rest_model"
+	edge_apis "ztna-core/sdk-golang/edge-apis"
+	"ztna-core/sdk-golang/ziti/edge"
+	"ztna-core/sdk-golang/ziti/edge/posture"
+
+	"github.com/kataras/go-events"
+	"github.com/michaelquigley/pfxlog"
+	cmap "github.com/orcaman/concurrent-map/v2"
+	"github.com/pkg/errors"
 )
 
 var idCount = 0

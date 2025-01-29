@@ -273,7 +273,7 @@ allows you to grant access based on groupings. (See [Roles and Role Attributes](
 ## Accessing the Management/Client API
 
 The Edge Management and Client APIs are defined by an OpenAPI 2.0 specification and have a client that is generated
-and maintained in [another GitHub repository](https://github.com/openziti/edge-api). Accessing this repository directly
+and maintained in [another GitHub repository](https://ztna-core/edge-api). Accessing this repository directly
 should not be necessary. This SDK provides a wrapper around the generated clients found in [`edge-apis`](edge-apis).
 
 #### Example: Creating an Edge Management API Client

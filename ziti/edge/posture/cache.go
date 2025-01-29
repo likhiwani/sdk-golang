@@ -19,7 +19,7 @@ package posture
 import (
 	"github.com/go-openapi/runtime"
 	"github.com/michaelquigley/pfxlog"
-	"github.com/openziti/edge-api/rest_model"
+	"ztna-core/edge-api/rest_model"
 	"github.com/openziti/foundation/v2/concurrenz"
 	"github.com/openziti/foundation/v2/stringz"
 	cmap "github.com/orcaman/concurrent-map/v2"

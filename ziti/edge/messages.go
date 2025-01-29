@@ -18,9 +18,10 @@ package edge
 
 import (
 	"encoding/binary"
+	"ztna-core/sdk-golang/pb/edge_client_pb"
+
 	"github.com/openziti/channel/v3"
 	"github.com/openziti/foundation/v2/uuidz"
-	"github.com/openziti/sdk-golang/pb/edge_client_pb"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

@@ -7,8 +7,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/openziti/sdk-golang/ziti"
-	"github.com/openziti/sdk-golang/ziti/edge"
+	"ztna-core/sdk-golang/ziti"
+	"ztna-core/sdk-golang/ziti/edge"
+
 	cmap "github.com/orcaman/concurrent-map/v2"
 )
 
